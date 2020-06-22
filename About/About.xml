@@ -8,61 +8,32 @@
     <packageId>Adda.BulkSteelExtractionRevived</packageId>
     <url></url>
     <description>
-Adds new bills to the Electric Smelter. *No research required*
+This is a revival of an original mod Bulk Steel Extraction by Fuglypump for RimWorld 1.1, which adds new bills to the Electric Smelter allowing you to extract steel from slag chunks and debris.
 
-New Recipes:
-- Extract metal from Slag (x3) - Smelt 3 slag chunks at a time for 30 steel
-- Extract metal from debris - Smelt 1 stone chunk for 10 steel
-- Extract metal from debris (x3) - Smelt 3 stone chunks at a time for 30 steel
-
-Notes:
-- Recipes which smelt 3 chunks at a time cost 15% less work than smelting single chunks at a time.
-- Smelting stone chunks costs the same amount of work as smelting chunks of slag.
-- Should be safe to add or remove to your saved games, just make sure you delete the bills and/or electric smelter before uninstalling to avoid any possible errors.
-
-Supported mods:
-Cupro's Stones - Adds the new stone types to the ingredients of the debris recipes if they exist.
-More Stone - Adds the new stone types to the ingredients of the debris recipes if they exist.
-MoreSteelFromSlag - x25 - Updates slag recipe yields if loaded.
-MoreSteelFromSlag - x50 - Updates slag recipe yields if loaded.
-MoreSteelFromSlag - x150 - Updates slag recipe yields if loaded.
-MoreSteelFromSlag - x300 - Updates slag recipe yields if loaded.
-
-Incompatible Mods:
-- Steel Extraction - Both mods add recipes for smelting stone debris and both use the same defnames, these will either be overwritten or appear twice.
-
-Credits:
-- nightinggale for ModCheck functionality
-
-
-
-
-
-
-
-This is a revival of an original mod [b18] Drop on Water (Fast and Clean) which adds a new way of getting rid of some of your unneeded materials, corpses, tainted apparel etc.
-
-Right now I only updated the previous version of the original mod with deleting a whole "disc thing" that was included but I am open for new suggestions and I want to update this mod even further. Just wanted to hear what you think I should add cause I have no idea whatsoever.
-
+I also added modifiable mod settings in Mod Settings section.
 ––––––––––––
-New workspace
-A new workspace has been added – Sink spot – You can find it in Misc tab and place it on deep water, ocean deep water and moving chest-deep water.
+New recipes
+Electric Smelter (no research required)
+– Extract metal from Slag (x3) – smelt 3 slag chunks at a time for 60 steel (changeable),
+– Extract metal from debris – smelt 1 stone chunk for 10 steel (changeable),
+– Extract metal from debris (x3) – smelt 3 stone chunks at a time for 30 steel (changeable).
 
-Sink spot comes with new recipes for dropping things on water:
-drop corpses
-drop weapons
-drop apparel
-drop anything
-drop anything 25×
-drop anything 75×
+Mod settings
+Allows you to change:
+– amount of steel to extract steel from a single slag chunk,
+– amount of work to extract steel from a single slag chunk,
+– amount of steel to extract steel from a single stone chunk,
+– amount of work to extract steel from a single stone chunk,
+– option to get an extra component from smelting a single slag chunk,
+– option to get an extra component from smelting a single stone chunk.
 
-But be careful, things dropped on the water cannot be recovered afterwards. Pay close attention to what you are planning to be set to drop! Once it is done, there is no way back.
-
-Mod will probably need some balancing and adding a few more functions so if you have any suggestions of what to change, I will be glad to hear them in comments below :)
+Notes
+Recipes which smelt 3 chunks at a time cost 25 % less work than smelting single chunks at a time.
+Smelting stone chunks costs by default the same amount of work as smelting chunks of slag. (changeable)
 
 ––––––––––––
 Compatibility and other mods
-Mod is safe to add to your saved games or delete from them. Only make sure to delete all bills from Sink spot and preferably also all Sink spots from a map as well.
+Mod is safe to add to your saved games or delete from them. Just make sure you delete all the added bills and/or electric smelter before uninstalling to avoid any possible errors – you would get a few harmless errors (but it might have even a bigger impact with greater severity).
 
 Required mods
 None.
@@ -71,12 +42,16 @@ Recommended mods
 None.
 
 Compatible mods
-Dubs Bad Hygiene by Dubwise – added patch to make possible to drop "waste" items from this mod such as Fecal sludge etc. on water.
+[1.1] Cupro's Stones by Ogliss and Dr Zhivago – Adds 10 new types of stone and updates the stone graphics for more realism. My mod supports the usage of new stone types for extracting steel from debris.
 
-Mod should be fully compatible with every other mod. Though I expect there will be some issues with other mods so if you find any incompatibility, let me know in the discussion below so I could fix it or at least give you a warning.
+Mod should be fully compatible with every other mod. Though I expect there might be some issues with other mods so if you find any incompatibility, let me know in the discussion below so I could fix it or at least give you a warning.
 
 Known incompatible mods
-None so far. If you find any incompatibility, let me know in the discussion below so I could fix it or at least give you a warning.
+SF More Steel from Slag by Rainbeau Flambe and SheiFoxy – This mods adds the same mod settings options as my revival but without an option for adjusting values for smelting debris. Therefore it is unnecessary and this mod and my mod would be overwriting each other's settings.
+
+Steel Extraction by Retrific – Both mods add recipes for smelting stone debris, these will either be overwritten or appear twice. Therefore it is incompatible with my mod.
+
+If you find any incompatibility, let me know in the discussion below so I could fix it or at least give you a warning.
 
 Load order
 Just load this anywhere below Core and you should be good to go.
@@ -85,9 +60,11 @@ Load order should not be affected by any other mods but if you find any problems
 
 ––––––––––––
 Credits
-Original mod: [b18] Drop on Water (Fast and Clean) by Tremeloe – I used his code and rewritten it for 1.0 but I also changed and add/remove a few things so it does better what I wanted it to do.
+Original mod: Bulk Steel Extraction by Funglypump – I have used this mod's code and changed it, added mod settings options and updated for RimWorld 1.1.
+
+SF More Steel from Slag by Rainbeau Flambe and SheiFoxy – The code for mod's settings in RimWorld's Mod Settings was based on this mod's mod settings. I used the code and edited it for usage purposes of this mod.
 
 License
-All original code in this mod is licensed under the MIT license[opensource.org]. Do whatever you might want to do with my mod, but would be nice if you would give me credit for the original mod/idea :)
+All original code in this mod is licensed under the MIT license. Do whatever you might want to do with my mod, but would be nice if you would give me credit for the original mod/idea :)
     </description>
 </ModMetaData>
