@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<Manifest>
+    <identifier>BulkSteelProductionRevived</identifier>
+    <version>1.0.0.0</version>
+    <dependencies />
+    <incompatibleWith>
+        <li>Steelextraction</li>
+    </incompatibleWith>
+    <loadBefore />
+    <loadAfter />
+    <suggests />
+    <showCrossPromotions>true</showCrossPromotions>
+    <manifestUri>https://cdn.jsdelivr.net/gh/Adda0/BulkSteelExtractionRevived/About/Manifest.xml</manifestUri>
+    <downloadUri>https://github.com/Adda0/BulkSteelExtractionRevived/releases</downloadUri>
+</Manifest>
