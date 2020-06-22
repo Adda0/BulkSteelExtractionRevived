@@ -1,5 +1,6 @@
 # Bulk Steel Extraction Revived
-Repository for Bulk Steel Extraction Revived mod for [RimWorld](https://rimworldgame.com).
+
+Repository for Bulk Steel Extraction Revived mod for [![RimWorld 1.1](https://img.shields.io/badge/RimWorld-1.1-brightgreen.svg)](http://rimworldgame.com/).
 
 ## Credits
 The code for mod's settings in RimWorld's Mod Options was based on the code of [SF More Steel from Slag](https://steamcommunity.com/sharedfiles/filedetails/?id=1558034969). I used the code and edited it for usage purposes of this mod.
