@@ -78,11 +78,11 @@ namespace BulkSteelExtractionRevived
 
     public class Settings : ModSettings {
         public int steelAmountFromSlag = 20;
-        public int workAmountFromSlag = 1600;
+        public int workAmountFromSlag = 1620;
         public bool componentFromSlag = false;
 
         public int steelAmountFromDebris = 10;
-        public int workAmountFromDebris = 1600;
+        public int workAmountFromDebris = 1620;
         public bool componentFromDebris = false;
 
         public void DoWindowContents(Rect canvas) {
@@ -90,16 +90,18 @@ namespace BulkSteelExtractionRevived
             list.ColumnWidth = canvas.width;
             list.Begin(canvas);
             list.Gap();
+            list.Label("BSER.Description".Translate());
+            list.Gap();
 
             list.Label("BSER.SteelAmountFromSlag".Translate() + "  " + steelAmountFromSlag);
-            steelAmountFromSlag = (int) list.Slider(steelAmountFromSlag, 1f, 200.99f);
+            steelAmountFromSlag = (int) list.Slider(steelAmountFromSlag, 1, 200);
             Text.Font = GameFont.Tiny;
             list.Label("          "+"BSER.SteelAmountTipFromSlag".Translate());
             Text.Font = GameFont.Small;
             list.Gap();
 
             list.Label("BSER.WorkAmountFromSlag".Translate() + "  " + workAmountFromSlag/60);
-            workAmountFromSlag = (int) list.Slider(workAmountFromSlag, 575f, 2400f);
+            workAmountFromSlag = (int) list.Slider(workAmountFromSlag, 600, 2400);
             Text.Font = GameFont.Tiny;
             list.Label("          "+"BSER.WorkAmountTipFromSlag".Translate());
             Text.Font = GameFont.Small;
@@ -109,14 +111,14 @@ namespace BulkSteelExtractionRevived
             list.Gap();
 
             list.Label("BSER.SteelAmountFromDebris".Translate() + "  " + steelAmountFromDebris);
-            steelAmountFromDebris = (int) list.Slider(steelAmountFromDebris, 1f, 200.99f);
+            steelAmountFromDebris = (int) list.Slider(steelAmountFromDebris, 1, 200);
             Text.Font = GameFont.Tiny;
             list.Label("          "+"BSER.SteelAmountTipFromDebris".Translate());
             Text.Font = GameFont.Small;
             list.Gap();
 
             list.Label("BSER.WorkAmountFromDebris".Translate() + "  " + workAmountFromDebris/60);
-            workAmountFromDebris = (int) list.Slider(workAmountFromDebris, 575f, 2400f);
+            workAmountFromDebris = (int) list.Slider(workAmountFromDebris, 600, 2400);
             Text.Font = GameFont.Tiny;
             list.Label("          "+"BSER.WorkAmountTipFromDebris".Translate());
             Text.Font = GameFont.Small;
@@ -130,11 +132,11 @@ namespace BulkSteelExtractionRevived
         public override void ExposeData() {
             base.ExposeData();
             Scribe_Values.Look(ref steelAmountFromSlag, "steelAmountFromSlag", 20);
-            Scribe_Values.Look(ref workAmountFromSlag, "workAmountFromSlag", 1600);
+            Scribe_Values.Look(ref workAmountFromSlag, "workAmountFromSlag", 1620);
             Scribe_Values.Look(ref componentFromSlag, "componentFromSlag", false);
 
             Scribe_Values.Look(ref steelAmountFromDebris, "steelAmountFromDebris", 10);
-            Scribe_Values.Look(ref workAmountFromDebris, "workAmountFromDebris", 1600);
+            Scribe_Values.Look(ref workAmountFromDebris, "workAmountFromDebris", 1620);
             Scribe_Values.Look(ref componentFromDebris, "componentFromDebris", false);
         }
     }
