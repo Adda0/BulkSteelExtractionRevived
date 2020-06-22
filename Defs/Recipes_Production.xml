@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <RecipeDef>
+        <defName>BulkExtractMetalFromSlag</defName>
+        <label>smelt metal from slag (x3)</label>
+        <description>Use heat and strong electromagnets to separate useful metal from three slag chunks at once.</description>
+        <jobString>Smelting metal from slag.</jobString>
+        <workAmount></workAmount>
+        <workSpeedStat>SmeltingSpeed</workSpeedStat>
+        <effectWorking>Smelt</effectWorking>
+        <soundWorking>Recipe_Smelt</soundWorking>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>ChunkSlagSteel</li>
+                    </thingDefs>
+                </filter>
+                <count>3</count>
+            </li>
+        </ingredients>
+        <products>
+        </products>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>ChunkSlagSteel</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <recipeUsers>
+            <li>ElectricSmelter</li>
+        </recipeUsers>
+    </RecipeDef>
+
+    <RecipeDef>
+        <defName>ExtractMetalFromDebris</defName>
+        <label>smelt metal from debris</label>
+        <description>Use heat and strong electromagnets to separate as much useful metal from chunks of rock debris at once.</description>
+        <jobString>Smelting metal from rock debris.</jobString>
+        <workAmount></workAmount>
+        <workSpeedStat>SmeltingSpeed</workSpeedStat>
+        <effectWorking>Smelt</effectWorking>
+        <soundWorking>Recipe_Smelt</soundWorking>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>ChunkLimestone</li>
+                        <li>ChunkGranite</li>
+                        <li>ChunkSandstone</li>
+                        <li>ChunkSlate</li>
+                        <li>ChunkMarble</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <products>
+        </products>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>ChunkLimestone</li>
+                <li>ChunkGranite</li>
+                <li>ChunkSandstone</li>
+                <li>ChunkSlate</li>
+                <li>ChunkMarble</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <recipeUsers>
+            <li>ElectricSmelter</li>
+        </recipeUsers>
+    </RecipeDef>
+
+    <RecipeDef>
+        <defName>BulkExtractMetalFromDebris</defName>
+        <label>smelt metal from debris (x3)</label>
+        <description>Use heat and strong electromagnets to separate as much useful metal from three chunks of rock debris at once.</description>
+        <jobString>Smelting metal from rock debris.</jobString>
+        <workAmount></workAmount>
+        <workSpeedStat>SmeltingSpeed</workSpeedStat>
+        <effectWorking>Smelt</effectWorking>
+        <soundWorking>Recipe_Smelt</soundWorking>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>ChunkLimestone</li>
+                        <li>ChunkGranite</li>
+                        <li>ChunkSandstone</li>
+                        <li>ChunkSlate</li>
+                        <li>ChunkMarble</li>
+                    </thingDefs>
+                </filter>
+                <count>3</count>
+            </li>
+        </ingredients>
+        <products>
+        </products>
+        <fixedIngredientFilter>
+          <thingDefs>
+            <li>ChunkLimestone</li>
+            <li>ChunkGranite</li>
+            <li>ChunkSandstone</li>
+            <li>ChunkSlate</li>
+            <li>ChunkMarble</li>
+          </thingDefs>
+        </fixedIngredientFilter>
+        <recipeUsers>
+            <li>ElectricSmelter</li>
+        </recipeUsers>
+    </RecipeDef>
+
+</Defs>

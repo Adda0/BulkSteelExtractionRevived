@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<LanguageData>
+    <BSER.Name>Bulk Steel Extraction Revived</BSER.Name>
+
+    <BSER.SteelAmountFromSlag>Amount of steel obtained by smelting a single slag:</BSER.SteelAmountFromSlag>
+    <BSER.SteelAmountTipFromSlag>Vanilla value is 20. (Changes to this value will only take effect after the game is restarted.)</BSER.SteelAmountTipFromSlag>
+
+    <BSER.WorkAmountFromSlag>Amount of work required to smelt a single slag:</BSER.WorkAmountFromSlag>
+    <BSER.WorkAmountTipFromSlag>Vanilla value is 27. (Changes to this value will only take effect after the game is restarted.)</BSER.WorkAmountTipFromSlag>
+
+    <BSER.ComponentFromSlag>Smelting slag also yields a component.</BSER.ComponentFromSlag>
+
+    <BSER.SteelAmountFromDebris>Amount of steel obtained by smelting a single chunk of debris:</BSER.SteelAmountFromDebris>
+    <BSER.SteelAmountTipFromDebris>Vanilla value is 10. (Changes to this value will only take effect after the game is restarted.)</BSER.SteelAmountTipFromDebris>
+
+    <BSER.WorkAmountFromDebris>Amount of work required to smelt a single chunk of debris:</BSER.WorkAmountFromDebris>
+    <BSER.WorkAmountTipFromDebris>Vanilla value is 27. (Changes to this value will only take effect after the game is restarted.)</BSER.WorkAmountTipFromDebris>
+
+    <BSER.ComponentFromDebris>Smelting debris also yields a component.</BSER.ComponentFromDebris>
+</LanguageData>
