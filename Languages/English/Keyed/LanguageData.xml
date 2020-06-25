@@ -4,18 +4,18 @@
     <BSER.Description>Changes to any of this values will only take effect after the game is restarted.</BSER.Description>
 
     <BSER.SteelAmountFromSlag>Amount of steel obtained by smelting a single slag:</BSER.SteelAmountFromSlag>
-    <BSER.SteelAmountTipFromSlag>Vanilla value is 20.</BSER.SteelAmountTipFromSlag>
+    <BSER.SteelAmountTipFromSlag>Vanilla value is 15.</BSER.SteelAmountTipFromSlag>
 
     <BSER.WorkAmountFromSlag>Amount of work required to smelt a single slag:</BSER.WorkAmountFromSlag>
-    <BSER.WorkAmountTipFromSlag>Vanilla value is 27.</BSER.WorkAmountTipFromSlag>
+    <BSER.WorkAmountTipFromSlag>Vanilla value is 7.</BSER.WorkAmountTipFromSlag>
 
     <BSER.ComponentFromSlag>Smelting slag also yields a component.</BSER.ComponentFromSlag>
 
-    <BSER.SteelAmountFromDebris>Amount of steel obtained by smelting a single chunk of debris:</BSER.SteelAmountFromDebris>
-    <BSER.SteelAmountTipFromDebris>Vanilla value is 10.</BSER.SteelAmountTipFromDebris>
+    <BSER.SteelAmountFromDebris>Amount of steel obtained by smelting a single stone chunk:</BSER.SteelAmountFromDebris>
+    <BSER.SteelAmountTipFromDebris>Suggested value is 10.</BSER.SteelAmountTipFromDebris>
 
-    <BSER.WorkAmountFromDebris>Amount of work required to smelt a single chunk of debris:</BSER.WorkAmountFromDebris>
-    <BSER.WorkAmountTipFromDebris>Vanilla value is 27.</BSER.WorkAmountTipFromDebris>
+    <BSER.WorkAmountFromDebris>Amount of work required to smelt a single stone chunk:</BSER.WorkAmountFromDebris>
+    <BSER.WorkAmountTipFromDebris>Suggested value is 7.</BSER.WorkAmountTipFromDebris>
 
     <BSER.ComponentFromDebris>Smelting debris also yields a component.</BSER.ComponentFromDebris>
 </LanguageData>

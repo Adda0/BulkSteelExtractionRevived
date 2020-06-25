@@ -77,12 +77,12 @@ namespace BulkSteelExtractionRevived
     }
 
     public class Settings : ModSettings {
-        public int steelAmountFromSlag = 20;
-        public int workAmountFromSlag = 1620;
+        public int steelAmountFromSlag = 15;
+        public int workAmountFromSlag = 400;
         public bool componentFromSlag = false;
 
         public int steelAmountFromDebris = 10;
-        public int workAmountFromDebris = 1620;
+        public int workAmountFromDebris = 400;
         public bool componentFromDebris = false;
 
         public void DoWindowContents(Rect canvas) {
@@ -100,8 +100,8 @@ namespace BulkSteelExtractionRevived
             Text.Font = GameFont.Small;
             list.Gap();
 
-            list.Label("BSER.WorkAmountFromSlag".Translate() + "  " + workAmountFromSlag/60);
-            workAmountFromSlag = (int) list.Slider(workAmountFromSlag, 600, 2400);
+            list.Label("BSER.WorkAmountFromSlag".Translate() + "  " + Math.Round((decimal)workAmountFromSlag/60, MidpointRounding.AwayFromZero));
+            workAmountFromSlag = (int) list.Slider(workAmountFromSlag, 60, 2000);
             Text.Font = GameFont.Tiny;
             list.Label("          "+"BSER.WorkAmountTipFromSlag".Translate());
             Text.Font = GameFont.Small;
@@ -117,8 +117,8 @@ namespace BulkSteelExtractionRevived
             Text.Font = GameFont.Small;
             list.Gap();
 
-            list.Label("BSER.WorkAmountFromDebris".Translate() + "  " + workAmountFromDebris/60);
-            workAmountFromDebris = (int) list.Slider(workAmountFromDebris, 600, 2400);
+            list.Label("BSER.WorkAmountFromDebris".Translate() + "  " + Math.Round((decimal)workAmountFromDebris/60, MidpointRounding.AwayFromZero));
+            workAmountFromDebris = (int) list.Slider(workAmountFromDebris, 60, 2000);
             Text.Font = GameFont.Tiny;
             list.Label("          "+"BSER.WorkAmountTipFromDebris".Translate());
             Text.Font = GameFont.Small;
@@ -131,12 +131,12 @@ namespace BulkSteelExtractionRevived
         }
         public override void ExposeData() {
             base.ExposeData();
-            Scribe_Values.Look(ref steelAmountFromSlag, "steelAmountFromSlag", 20);
-            Scribe_Values.Look(ref workAmountFromSlag, "workAmountFromSlag", 1620);
+            Scribe_Values.Look(ref steelAmountFromSlag, "steelAmountFromSlag", 15);
+            Scribe_Values.Look(ref workAmountFromSlag, "workAmountFromSlag", 400);
             Scribe_Values.Look(ref componentFromSlag, "componentFromSlag", false);
 
             Scribe_Values.Look(ref steelAmountFromDebris, "steelAmountFromDebris", 10);
-            Scribe_Values.Look(ref workAmountFromDebris, "workAmountFromDebris", 1620);
+            Scribe_Values.Look(ref workAmountFromDebris, "workAmountFromDebris", 400);
             Scribe_Values.Look(ref componentFromDebris, "componentFromDebris", false);
         }
     }
