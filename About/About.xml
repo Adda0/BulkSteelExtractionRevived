@@ -9,7 +9,7 @@
     <packageId>Adda.BulkSteelExtractionRevived</packageId>
     <url></url>
     <description>
-This is a revival of an original mod Bulk Steel Extraction by Fuglypump for RimWorld 1.1, which adds new bills to the Electric Smelter allowing you to extract steel from slag chunks and debris.
+This is a revival of an original mod Bulk Steel Extraction by Fuglypump for RimWorld 1.1 and 1.2, which adds new bills to the Electric Smelter allowing you to extract steel from slag chunks and debris.
 
 I also added modifiable mod settings in Mod Settings section.
 ––––––––––––
@@ -43,7 +43,9 @@ Recommended mods
 None.
 
 Compatible mods
-[1.1] Cupro's Stones by Ogliss and Dr Zhivago – Adds 10 new types of stone and updates the stone graphics for more realism. My mod supports the usage of new stone types for extracting steel from debris.
+[1.0, 1.1, 1.2] Cupro's Stones by Ogliss and Dr Zhivago – Adds 10 new types of stone and updates the stone graphics for more realism. My mod supports the usage of new stone types for extracting steel from debris.
+
+[K]Extra Stone by Kuratheris – Adds 26 different types of stone, all with stats configured in relation to real-life numbers and the vanilla rocks. My mod supports the usage of new stone types for extracting steel from debris.
 
 Mod should be fully compatible with every other mod. Though I expect there might be some issues with other mods so if you find any incompatibility, let me know in the discussion below so I could fix it or at least give you a warning.
 
